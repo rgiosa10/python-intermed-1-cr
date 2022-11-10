@@ -2,7 +2,7 @@
 
 #### By Ruben Giosa
 
-#### This repo includes several functions that illustrates skills using dictionaries, lists, lambda functions, classes, args/kwargs, type hints and doc strings, and try and except. 
+#### This repo includes several functions that illustrates skills using dictionaries, lists, lambda functions, classes, `*args` and `**kwargs`, type hints and docstrings, and exception handling. 
 
 <br>
 
@@ -19,24 +19,26 @@
 
 ## Description
 
-This repo includes several functions that illustrates skills using dictionaries, lists, lambda functions, classes, args/kwargs, type hints and doc strings, and try and except. There are four different exercises: 1) `fourth_place()` 2) `subtracter_lambda` 3) class named `Shoe` and 4) `galaxy()`.
+This repo includes several functions that illustrates skills using dictionaries, lists, lambda functions, classes, `*args` and `**kwargs`, type hints and docstrings, and exception handling (i.e. `try` and `except`). There are four different exercises: 1) `fourth_place()` 2) `subtracter_lambda` 3) class named `Shoe` and 4) `galaxy()`.
+
+Additional functionality has been included to `galaxy()` where it will 1) modify printed outputs based on number of objects and/or planet with color key/value pair depending on how many arguments are passed through and 2) leveraged `pluto_is_planet` keyword argument to evaluate user's believe if Pluto is a planet. If a user inputs Pluto (and its color), while `pluto_is_planet = False` then it will modify the message calling out that while inputted as planet they do not believe it.
 
 <br>
 
 ## Setup/Installation Requirements
 
-* Go to https://github.com/rgiosa10/intro-python-cr.git to find the specific repository for this website.
+* Go to https://github.com/rgiosa10/python-intermed-1-cr.git to find the specific repository for this website.
 * Then open your terminal. I recommend going to your Desktop directory:
     ```bash
     cd Desktop
     ```
 * Then clone the repository by inputting: 
   ```bash
-  git clone https://github.com/rgiosa10/intro-python-cr.git
+  git clone https://github.com/rgiosa10/python-intermed-1-cr.git
   ```
 * Go to the new directory or open the directory folder on your desktop:
   ```bash
-  cd intro-python-cr
+  cd python-intermed-1-cr
   ```
 * Once in the directory you will need to set up a virtual environment in your terminal:
   ```bash
